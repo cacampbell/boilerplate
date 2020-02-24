@@ -1,10 +1,4 @@
 {
-  "processors": [
-    ["stylelint-processor-styled-components", {
-      ignoreFiles: [
-        "*.css"
-      ]
-    }]],
   "plugins": [
     "stylelint-order"
   ],

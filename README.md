@@ -1,4 +1,4 @@
-# SnowPreact
+# Boilerplate
 
 - Bundler: [Snowpack](https://www.snowpack.dev/)
 - Component Framework: [Preact](https://preactjs.com/) including JSX, Fragments, and Hooks (for functional components)

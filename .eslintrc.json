@@ -1,23 +1,25 @@
 {
     "root": true,
     "extends": [
-        "@aerian/eslint-config-preact",
-        "@aerian/eslint-config-typescript"
+        "plugin:vue/essential",
+        "eslint:recommended",
+        "@vue/typescript",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript"
     ],
-    "parser": "@typescript-eslint/parser",
     "plugins": [
-        "react",
-        "react-hooks",
+        "vue",
         "@typescript-eslint",
-        "jest" 
+        "jest",
+        "import" 
      ],
     "rules": {
-        "react/display-name": "off",
         "@typescript-eslint/no-unused-vars": [
             "warn",
             {
                 // [h] must currently be explicitly imported for TSX
-                "varsIgnorePattern": "React|h"
+                "varsIgnorePattern": "h"
             }
         ],
         "import/default": "off",

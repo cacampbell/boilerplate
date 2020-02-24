@@ -4,12 +4,27 @@
     "noUnusedParameters": true,
     "jsx": "preserve",
     "target": "esnext",
-    "moduleResolution": "node",
     "module": "esnext",
-
     "rootDir": "./src",
     "outDir": "./dist",
-
-    "baseUrl": "."
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "/web_modules/*.js": [
+        "node_modules/@types/*",
+        "node_modules/*",
+        "web_modules/*.js"
+      ]
+    },
+    "types": [
+      "jest"
+    ],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
   }
 }
