@@ -1,0 +1,45 @@
+{
+  "comments": false,
+  "presets": ["@babel/typescript"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "react": "preact/compat",
+          "react-dom/test-utils": "preact/test-utils",
+          "react-dom": "preact/compat"
+        }
+      }
+    ],
+    "@babel/plugin-transform-react-jsx",
+    "babel-plugin-add-import-extension",
+    ["babel-plugin-styled-components", {
+      "pure": true
+    }],
+    ["snowpack/assets/babel-plugin.js", { "optionalExtensions": true }],
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "minify",
+          {
+            "mangle": {
+              "topLevel": true,
+              "keepFnName": false,
+              "keepClassName": false
+            },
+            "keepFnName": false,
+            "keepClassName": false,
+            "removeConsole": true
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/node_modules/
+/build/
+/prod/
+/web_modules/
+/.history/

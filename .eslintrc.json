@@ -1,0 +1,41 @@
+{
+    "root": true,
+    "extends": [
+        "@aerian/eslint-config-preact",
+        "@aerian/eslint-config-typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint",
+        "jest" 
+     ],
+    "rules": {
+        "react/display-name": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                // [h] must currently be explicitly imported for TSX
+                "varsIgnorePattern": "React|h"
+            }
+        ],
+        "import/default": "off",
+        "import/order": [
+            "error",
+            {
+                "groups": [
+                    "builtin",
+                    "external",
+                    "parent",
+                    "sibling",
+                    "index"
+                ],
+                "alphabetize": {
+                    "order": "asc"
+                },
+                "newlines-between": "always"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+/* https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#variables */
+/* https://github.com/shariati/cherangi */
+
+:root {
+    --colorWhite: #ffffff;
+    --colorBlack: #000000;
+    --colorNavyTrim: #1d3660;
+    --colorRurikonBlue: #1b294b;
+    --colorBlueChip: #235497;
+    --colorClimateControl: #485f83;
+    --colorLightBreezy: #c5d6f0;
+    --colorMoonWhite: #ebf5ff;
+    --colorCoarseWool: #131a25;
+    --colorPingGuoLuGreen: #00bf85;
+    --colorCarbon: #333333;
+    --colorSquant: #666666;
+    --colorJupiter: #e0e0e0;
+    --colorBlueBlouse: #99aac1;
+}

@@ -1,0 +1,119 @@
+ul {
+  padding: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--colorWhite);
+  color: var(--colorBlack);
+  display: grid;
+  grid-gap: 1em;
+  grid:
+    "header" auto
+    "nav" auto
+    "main" 1fr
+    "footer" auto / 1fr;
+}
+
+@media (min-width: 40em) {
+  #app {
+    grid:
+      "header header" auto
+      "nav main" 1fr
+      "nav footer" auto / 12em 1fr;
+  }
+}
+
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 1em;
+}
+
+.layout-note {
+  font-style: italic;
+}
+
+nav a {
+  display: block;
+}

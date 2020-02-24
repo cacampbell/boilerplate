@@ -1,0 +1,9 @@
+{
+    "open": false,
+    "port": 8000,
+    "host": "localhost",
+    "files": "./build/**/*",
+    "server": {
+        "baseDir": "./build"
+    }
+}

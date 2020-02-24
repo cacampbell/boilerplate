@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "preserve",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "esnext",
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "baseUrl": "."
+  }
+}
