@@ -1,6 +1,6 @@
-import { createComponent } from "@vue/composition-api";
+import { defineComponent } from "@vue/composition-api";
 
-export default createComponent({
+export default defineComponent({
     setup() {
         return (_, context): JSX.Element => (
             <div class="app">

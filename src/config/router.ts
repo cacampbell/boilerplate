@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-import Home from "../ui/views/Home.tsx";
+import Home from "../ui/views/Home";
 
 interface Position {
     x: number;

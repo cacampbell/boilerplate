@@ -1,16 +1,33 @@
 {
   "comments": false,
-  "presets": ["@babel/typescript"],
-  "plugins": [
-    "vue",
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        },
+        "modules": false,
+        "useBuiltIns": false
+      }
+    ],
+    "@babel/typescript",
     "vca-jsx",
-    "@babel/plugin-transform-vue-jsx",
+    "@vue/app"
+  ],
+  "plugins": [
+    [
+      "snowpack/assets/babel-plugin.js", 
+      { 
+        "optionalExtensions": true 
+      }
+    ],
     "@babel/plugin-proposal-nullish-coalescing-operator",
     "@babel/proposal-class-properties",
     "@babel/proposal-object-rest-spread",
     "@babel/plugin-syntax-dynamic-import",
     "babel-plugin-add-import-extension",
-    ["snowpack/assets/babel-plugin.js", { "optionalExtensions": true }]
+    "transform-vue-jsx"
   ],
   "env": {
     "production": {

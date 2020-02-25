@@ -2,7 +2,7 @@ import { SetupContext } from "@vue/composition-api";
 import Vue from "vue";
 import VueI18n from "vue-i18n";
 
-const en = require("./lang/en.json");
+import en from "../lang/en.js";
 
 Vue.use(VueI18n);
 
