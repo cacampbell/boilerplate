@@ -70,8 +70,6 @@ html {
 
 #app {
   min-height: 100vh;
-  background-color: var(--colorWhite);
-  color: var(--colorBlack);
   display: grid;
   grid-gap: 1em;
   grid:

@@ -4,7 +4,8 @@
     "@babel/preset-typescript",
     "jest",
     "vca-jsx",
-    "vue"
+    "vue",
+    "linaria/babel"
   ],
   "plugins": [
     ["module-resolver", {
