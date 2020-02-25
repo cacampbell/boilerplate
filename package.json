@@ -56,6 +56,7 @@
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-minify": "^0.5.1",
     "babel-preset-vca-jsx": "^0.3.4",
+    "babel-preset-vue": "^2.0.2",
     "cpx-fixed": "^1.6.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",

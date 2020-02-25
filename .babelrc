@@ -3,7 +3,8 @@
   "presets": [
     "@babel/preset-typescript",
     "jest",
-    "vca-jsx"
+    "vca-jsx",
+    "vue"
   ],
   "plugins": [
     ["module-resolver", {
