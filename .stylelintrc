@@ -3,7 +3,6 @@
     "stylelint-order"
   ],
   "extends": [
-    "stylelint-config-recommended",
-    "linaria/stylelint-config"
+    "stylelint-config-recommended"
   ]
 }

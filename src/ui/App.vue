@@ -1,14 +1,10 @@
+<script lang="tsx">
 import { defineComponent } from "@vue/composition-api";
-import { css } from "linaria";
-
-const App = css`
-    color: var(--colorLightBreezy);
-`;
 
 export default defineComponent({
     setup() {
         return (): JSX.Element => (
-            <div class={App}>
+            <div class="App">
                 <header><h1 class="layout-note">Header</h1></header>
                 <nav><h2 class="layout-note">Navigation</h2></nav>
                 <main>
@@ -17,6 +13,12 @@ export default defineComponent({
                 </main>
                 <footer><h2 class="layout-note">Footer</h2></footer>
             </div>
-        )
+        );
     }
 });
+</script>
+<style scoped lang="postcss">
+.App {
+    background-color: var(--colorJupiter);
+}
+</style>
