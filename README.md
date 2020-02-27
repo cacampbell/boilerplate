@@ -1,7 +1,7 @@
 # Boilerplate
 
 - Bundler: [Snowpack](https://www.snowpack.dev/)
-- Component Framework: [VueJS](https://vuejs.org/) w/ Styled JSX and PostCSS
+- Component Framework: [VueJS](https://vuejs.org/) w/ JSX and PostCSS
 - Transpiler: [Babel](https://babeljs.io/)
 - CSS Grid: [Template](https://codepen.io/mirisuzanne/pen/JjPeQYP?editors=0100)
 - Lint: ES Lint, Stylelint
