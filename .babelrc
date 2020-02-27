@@ -1,11 +1,10 @@
 {
   "comments": false,
   "presets": [
-    "@babel/preset-typescript",
     "jest",
+    "@babel/preset-typescript",
     "vca-jsx",
-    "@vue/babel-preset-jsx",
-    "vue"
+    "@vue/babel-preset-jsx"
   ],
   "plugins": [
     ["module-resolver", {
