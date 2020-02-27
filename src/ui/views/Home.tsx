@@ -1,4 +1,3 @@
-<script lang="tsx">
 import { defineComponent } from "@vue/composition-api";
 
 export default defineComponent({
@@ -9,9 +8,3 @@ export default defineComponent({
         );
     }
 });
-</script>
-<style scoped lang="postcss">
-.Home {
-    background-color: var(--colorLightBreezy);
-}
-</style>

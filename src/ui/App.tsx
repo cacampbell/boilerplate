@@ -1,4 +1,3 @@
-<script lang="tsx">
 import { defineComponent } from "@vue/composition-api";
 
 export default defineComponent({
@@ -16,9 +15,3 @@ export default defineComponent({
         );
     }
 });
-</script>
-<style scoped lang="postcss">
-.App {
-    background-color: var(--colorJupiter);
-}
-</style>

@@ -1,12 +1,10 @@
 # Boilerplate
 
 - Bundler: [Snowpack](https://www.snowpack.dev/)
-- Component Framework: [Preact](https://preactjs.com/) including JSX, Fragments, and Hooks (for functional components)
-- Router: [Wouter](https://github.com/molefrog/wouter)
-- Styled Components
+- Component Framework: [VueJS](https://vuejs.org/) w/ Styled JSX and PostCSS
 - Transpiler: [Babel](https://babeljs.io/)
 - CSS Grid: [Template](https://codepen.io/mirisuzanne/pen/JjPeQYP?editors=0100)
-- ES Lint
+- Lint: ES Lint, Stylelint
 
 Start the Live Server with `yarn start`
 
@@ -16,5 +14,4 @@ TODO:
 - [] Unit Tests
 - [] E2E Tests
 - [] Firebase
-- [] Polyfills (rollup plugin)
 - [] Workbox PWA
