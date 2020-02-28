@@ -1,17 +1,24 @@
 import { defineComponent } from "@vue/composition-api";
+import styled from "vue-styled-components";
 
 export default defineComponent({
     setup() {
-        return (): JSX.Element => (
-            <div class="App">
-                <header><h1 class="layout-note">Header</h1></header>
-                <nav><h2 class="layout-note">Navigation</h2></nav>
-                <main>
-                    <h2 class="layout-note">Main Content</h2>
-                    <router-view />
-                </main>
-                <footer><h2 class="layout-note">Footer</h2></footer>
-            </div>
-        );
+        const StyledH1 = styled.h1`
+            background-color: var(--colorMoonWhite);
+        `;
+        const StyledH2 = styled.h2`
+            background-color: var(--colorBlueBlouse);
+        `;
+        const App = (
+        <div>
+            <header><StyledH1>Header</StyledH1></header>
+            <nav><StyledH2>Navigation</StyledH2></nav>
+            <main>
+                <StyledH2>Main Content</StyledH2>
+                <router-view />
+            </main>
+            <footer><StyledH2>Footer</StyledH2></footer>
+        </div>);
+        return (): JSX.Element => App;
     }
 });

@@ -18,6 +18,7 @@
         "optionalExtensions": true 
       }
     ],
+    "babel-plugin-styled-components",
     "@babel/plugin-proposal-nullish-coalescing-operator",
     "@babel/proposal-class-properties",
     "@babel/proposal-object-rest-spread",
