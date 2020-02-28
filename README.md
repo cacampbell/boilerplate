@@ -10,8 +10,9 @@ Start the Live Server with `yarn start`
 
 TODO:
 
-- [] Electron
-- [] Unit Tests
-- [] E2E Tests
-- [] Firebase
-- [] Workbox PWA
+- Electron (Using [Three](https://github.com/br3tt/electron-three))
+- PWA (Using [Workbox CLI](https://github.com/matthoffner/es-react-pwa))
+
+- Unit Tests
+- E2E Tests
+- CI with Netlify
