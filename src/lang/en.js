@@ -1,3 +1,3 @@
 export default {
-    "Hello": "Hello"
+    "home.welcome": "Hello World!"
 }
