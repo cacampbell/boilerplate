@@ -82,7 +82,7 @@
     "watch:dependencies": "snowpack --clean --include 'src/**/*.{ts,tsx,js,jsx}' 'test/**/*.{ts,tsx,js,jsx}'",
     "build:dependencies": "snowpack --babel --optimize --clean --no-source-map --include 'src/**/*.{ts,tsx,js,jsx}' 'test/**/*.{ts,tsx,js,jsx}'",
     "watch:js": "babel src --watch --out-dir build --extensions '.ts,.tsx,.js,.jsx'",
-    "build:js": "set BABEL_ENV=distuction&&babel src --out-dir build --extensions '.ts,.tsx,.js,.jsx'",
+    "build:js": "set BABEL_ENV=production&&babel src --out-dir build --extensions '.ts,.tsx,.js,.jsx'",
     "watch:copy:assets": "cpx-fixed -w 'src/**/*.{html,css}' ./build",
     "build:copy:assets": "cpx-fixed 'src/**/*.{html,css}' ./build",
     "watch:copy:modules": "cpx-fixed -w 'web_modules/**' 'build/web_modules'",
