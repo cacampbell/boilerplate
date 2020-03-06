@@ -3972,6 +3972,11 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
+http-vue-loader@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/http-vue-loader/-/http-vue-loader-1.4.2.tgz#98e8c3304f5c1351858eaca60c5d80bf6a244196"
+  integrity sha512-2a74yfhaMbWv3rVHDGeZFddtIatgzMDiko67u9FHDMIhL3NNEMQNRw1cgyya/Kz8UFKINpb0y+FiImckVQ0RXw==
+
 human-signals@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
